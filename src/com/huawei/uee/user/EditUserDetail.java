@@ -12,7 +12,12 @@ import com.huawei.uee.dbconnect.DAOFactory;
 
 public class EditUserDetail extends HttpServlet
 {
-	public void doGet(HttpServletRequest request, HttpServletResponse response)
+	/**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
+
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException
 	{
 		this.doPost(request, response);

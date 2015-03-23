@@ -5,7 +5,11 @@ import javax.servlet.http.HttpServlet;
 
 public class CookieTest extends HttpServlet
 {
-	Cookie cookie1 = new Cookie("姓名","张三");
+	/**
+     * 
+     */
+    private static final long serialVersionUID = 1L;
+    Cookie cookie1 = new Cookie("姓名","张三");
 	
 
 }
